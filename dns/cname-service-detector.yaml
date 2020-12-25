@@ -25,41 +25,30 @@ dns:
         name: pantheon
         words:
           - "pantheon.io"
+          - "pantheonsite.io"
+          - "23.185.0"
       - type: word
         name: webflow
         words:
           - "webflow.com"
       - type: word
-        name: aftership
+        name: tilda
         words:
-          - "aftership.com"
+          - "tilda.ws"
+          - "tilda.cc"
       - type: word
-        name: aha
+        name: heroku
         words:
-          - "aha.io"
+          - "herokudns.com"
       - type: word
-        name: azure
+        name: ghost
         words:
-          - "azure-api.net"
-          - "azure-mobile.net"
-          - "azurecontainer.io"
-          - "azurecr.io"
-          - "azuredatalakestore.net"
-          - "azureedge.net"
-          - "azurefd.net"
-          - "azurehdinsight.net"
-          - "azurewebsites.net"
-          - "azurewebsites.windows.net"
-          - "blob.core.windows.net"
-          - "cloudapp.azure.com"
-          - "cloudapp.net"
-          - "database.windows.net"
-          - "redis.cache.windows.net"
-          - "search.windows.net"
-          - "servicebus.windows.net"
-          - "trafficmanager.net"
-          - "visualstudio.com"
+          - "ghost.io"
       - type: word
-        name: NXDOMAIN
+        name: bitbucket
         words:
-          - "NXDOMAIN"
+          - "bitbucket.io"
+      - type: word
+        name: elasticbeans
+        words:
+          - "elasticbeanstalk.com"

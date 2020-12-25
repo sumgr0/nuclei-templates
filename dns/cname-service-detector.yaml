@@ -21,3 +21,45 @@ dns:
         name: github
         words:
           - "github.io"
+      - type: word
+        name: pantheon
+        words:
+          - "pantheon.io"
+      - type: word
+        name: webflow
+        words:
+          - "webflow.com"
+      - type: word
+        name: aftership
+        words:
+          - "aftership.com"
+      - type: word
+        name: aha
+        words:
+          - "aha.io"
+      - type: word
+        name: azure
+        words:
+          - "azure-api.net"
+          - "azure-mobile.net"
+          - "azurecontainer.io"
+          - "azurecr.io"
+          - "azuredatalakestore.net"
+          - "azureedge.net"
+          - "azurefd.net"
+          - "azurehdinsight.net"
+          - "azurewebsites.net"
+          - "azurewebsites.windows.net"
+          - "blob.core.windows.net"
+          - "cloudapp.azure.com"
+          - "cloudapp.net"
+          - "database.windows.net"
+          - "redis.cache.windows.net"
+          - "search.windows.net"
+          - "servicebus.windows.net"
+          - "trafficmanager.net"
+          - "visualstudio.com"
+      - type: word
+        name: NXDOMAIN
+        words:
+          - "NXDOMAIN"

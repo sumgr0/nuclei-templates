@@ -15,7 +15,8 @@ info:
 requests:
   - method: GET
     path:
-      - "{{BaseURL}}/"
+      - "https://{{BaseURL}}/"
+      - "http://{{BaseURL}}/"
     matchers-condition: or
 
     matchers:
@@ -97,11 +98,6 @@ requests:
           - 404 Not Found<br>
 
       - type: word
-        name: fastly
-        words:
-          - "Fastly error: unknown domain:"
-
-      - type: word
         name: feedpress
         words:
           - The feed has not been found.
@@ -167,12 +163,6 @@ requests:
           - "<title>No such app</title>"
 
       - type: word
-        name: hubspot
-        words:
-          - Domain not found
-          - does not exist in our system
-
-      - type: word
         name: intercom
         words:
           - This page is reserved for artistic dogs.
@@ -187,17 +177,6 @@ requests:
         name: jetbrains
         words:
           - is not a registered InCloud YouTrack.
-
-      - type: word
-        name: kinsta
-        words:
-          - No Site For Domain
-
-      - type: word
-        name: landingi
-        words:
-          - It looks like you're lost
-          - The page you are looking for is not found
 
       - type: word
         name: launchrock
@@ -265,12 +244,6 @@ requests:
           - '{"text":"Page Not Found"'
 
       - type: word
-        name: strikingly
-        words:
-          - But if you're looking to build your own website
-          - you've come to the right place.
-
-      - type: word
         name: surge
         words:
           - project not found
@@ -312,16 +285,6 @@ requests:
         name: uberflip
         words:
           - "Non-hub domain, The URL you've accessed does not provide a hub."
-
-      - type: regex
-        name: unbounce
-        regex:
-          - "^The requested URL was not found on this server.$"
-
-      - type: regex
-        name: uptimerobot
-        regex:
-          - "^page not found$"
 
       - type: word
         name: uservoice
